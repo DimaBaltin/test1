@@ -22,3 +22,10 @@ print(f"Your dog's name is {your_dog.name}")
 print(f"Your dog is {your_dog.age} year old.")
 your_dog.sit()
 your_dog.roll_over()
+
+
+super_dog = Dog('SUPER', 27)
+print(f"This dog's name is {super_dog.name}")
+print(f"This dog is {super_dog.age} year old.")
+super_dog.sit()
+super_dog.roll_over()
